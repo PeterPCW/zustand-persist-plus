@@ -1,0 +1,61 @@
+{
+  "name": "zustand-persist-plus",
+  "version": "0.2.0",
+  "description": "Advanced persistence extensions for Zustand v5 - encryption, compression, migration, and cloud sync",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "zustand",
+    "persistence",
+    "storage",
+    "encryption",
+    "compression",
+    "localstorage",
+    "sync"
+  ],
+  "author": "Peter WsL <peterwsl@users.noreply.github.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "zustand": ">=5.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "lz-string": "^1.5.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.93.3",
+    "@types/crypto-js": "^4.2.2",
+    "@types/lz-string": "^1.5.0",
+    "firebase": "^12.8.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5",
+    "zustand": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterwsl/zustand-persist-plus"
+  },
+  "bugs": {
+    "url": "https://github.com/peterwsl/zustand-persist-plus/issues"
+  },
+  "homepage": "https://github.com/peterwsl/zustand-persist-plus#readme"
+}
