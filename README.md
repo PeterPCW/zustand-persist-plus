@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/zustand-persist-plus.svg)](https://www.npmjs.com/package/zustand-persist-plus)
-[![npm downloads](https://img.shields.io/npm/dm/zustand-persist-plus.svg)](https://www.npmjs.com/package/zustand-persist-plus)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![NPM Package](https://img.shields.io/npm/v/zustand-persist-plus.svg)](https://www.npmjs.com/package/zustand-persist-plus)
+[![NPM Downloads](https://img.shields.io/npm/dm/zustand-persist-plus.svg)](https://www.npmjs.com/package/zustand-persist-plus)
+[![License](https://img.shields.io/npm/l/zustand-persist-plus.svg)](LICENSE)
 
 **Advanced persistence extensions for Zustand v5 — encryption, compression, migrations, and cloud sync.**
 
